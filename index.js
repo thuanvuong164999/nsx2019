@@ -12,7 +12,8 @@ app.get('/', (req, res) => {
     res.render('index',{
         user:{
             name:'Thuan'
-        }
+        },
+        users: ['apple','samsung','sony']
     })
 })
 
